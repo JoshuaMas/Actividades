@@ -42,7 +42,11 @@ public class Apuntes {
         miArray[8] = 1.667;
             //Asignamos el valor 3.333 al tercer elemento del array
         miArray[2] = 3.333;
+
+        //Uso del printf
+            //Printf nos permite dar formato al muestreo de datos, por ejemplo.
+        int dato1 = 99;
+        float dato2 = 50f;
+        System.out.printf("El valor de datos1 es: %d"+" y el valor de datos2 es : %f",dato1,dato2);
     }
-
-
 }
