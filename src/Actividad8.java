@@ -1,11 +1,15 @@
 import java.util.*;
 public class Actividad8 {
     public static void main(String[] args) {
+        //Instanciamos el escaner para tomar datos por teclado
         Scanner sc = new Scanner(System.in);
+        //Delcaramos las variables nuymero y control para poder sacar la tabla de multiplicar y tener un control de datos correcto.
         int numero;
         boolean control = false;
+        //Pedimos los datos
         System.out.print("Porfavor introduce un valor de 0 a 9 ");
         numero=sc.nextInt();
+        //Utilizamos una estructura de control compleja para poder sacar las tabals de multiplicar.
         do {
             switch (numero){
                 case 0: for (int i = 0; i<=10; i++){
