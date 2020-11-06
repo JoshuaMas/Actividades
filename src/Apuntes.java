@@ -3,16 +3,16 @@ public class Apuntes {
     public static void main(String[] args) {
         // Formas de incrementar y decrementar una variable en 1.
         int x =1;
-        x++;
-        ++x;
-        x=x+1;
+        //x++;
+       // ++x;
+      //  x=x+1;
         x+=1;//Sumamos y asignamos el valor a la variable.
         System.out.println(x);
 
         int y = 1;
-        y--;
-        --y;
-        y=y-1;
+       // y--;
+       // --y;
+      //  y=y-1;
         y-=1;//Restamos y asignamos a la variable.
         System.out.println(y);
 
