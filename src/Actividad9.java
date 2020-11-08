@@ -10,5 +10,6 @@ public class Actividad9 {
             contador++;
         }
         System.out.println("El total de digitos es "+contador);
+
     }
 }
